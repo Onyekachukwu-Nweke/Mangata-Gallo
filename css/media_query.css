@@ -1,0 +1,56 @@
+/** For Header **/
+
+
+
+/** For Hero **/
+@media only screen and (max-width: 540px) {
+    body{
+        font-size: 15px
+    }
+
+    .img-fluid {
+        width: 246px;
+        max-width: 100%;
+    }
+
+    nav ul#myLinks {
+        display: none;
+    }
+
+    nav li {
+        margin: 2px;
+        padding: 2px;
+        display: block;
+        text-align: left;
+    }
+
+    .icon{
+        display: block;
+        position: absolute;
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        transform: translate(-4px, 2px);
+        align-self: flex-end;
+        right: 0;
+    }
+
+    .icon.scroll {
+        color: #000;
+    }
+
+    .hero{
+        height: 75vh;
+    }
+
+    .hero_text{
+        padding: 10px;
+        transform: translate(0px, 108px);
+    }
+}
+
+@media only screen and (750px <= width <= 992px) {
+    .hero{
+        height: 60vh;
+    }
+}
